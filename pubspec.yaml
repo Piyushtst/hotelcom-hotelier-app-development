@@ -1,0 +1,67 @@
+name: hotel_customer
+version: 1.0.0+4
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.17.6 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.0.15
+  http: ^0.13.5
+  image_picker: ^0.8.5+3
+  flutter_rating_bar: ^4.0.1
+  cached_network_image: ^3.2.0
+  url_launcher: ^6.1.6
+  flutter_svg: ^1.1.4
+  grouped_list: ^5.1.2
+  email_validator: ^2.0.1
+
+  get: 4.6.5
+  dio:
+  connectivity:
+  get_storage:
+  firebase_auth: ^4.1.4
+  firebase_core: ^2.3.0
+  flutter_local_notifications: ^12.0.3+1
+  firebase_messaging: ^14.1.1
+  intl:
+  kiwi:
+  qr_flutter: ^4.0.0
+  flutter: 
+    sdk: flutter
+  shimmer: ^2.0.0
+  clear_all_notifications: ^0.0.3
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  build_runner: ^2.1.7
+  json_serializable: ^6.1.5
+  kiwi_generator: null
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/fonts/
+    - assets/images/
+    - assets/images/jpeg/
+    - assets/images/png/
+    - assets/images/svg/
+  uses-material-design: true
+
+  fonts:
+    - family: Satoshi
+      fonts:
+        - asset: assets/fonts/Satoshi-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Satoshi-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Satoshi-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Satoshi-Regular.ttf
+          weight: 300 
+    
+    - family: Script
+      fonts:
+        - asset: assets/fonts/script.ttf
