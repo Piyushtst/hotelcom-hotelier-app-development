@@ -15,7 +15,7 @@ dependencies:
   url_launcher: ^6.1.6
   flutter_svg: ^1.1.4
   grouped_list: ^5.1.2
-  email_validator: ^2.0.1
+
 
   get: 4.6.5
   dio:
